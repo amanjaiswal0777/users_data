@@ -11,6 +11,8 @@ const formDatasch=new mongoose.Schema({
     qualification:String,
     eight:String,
     fav:String,
+    last:String,
+    regret:String,
     mood:String,
     discription:String
 

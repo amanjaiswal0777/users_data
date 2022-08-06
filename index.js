@@ -30,11 +30,15 @@ app.post('/home',async(req,res)=>
         qualification:req.body.qualification,
         eight:req.body.eight,
         fav:req.body.fav,
+        regret:req.body.regret,
+        last:req.body.last,
         mood:req.body.mood,
         discription:req.body.discription
        })
        const formsaved=await formentry.save();
-       return res.status(201).render('home');
+       return res.status(201).render('home',{
+            name:req.body.name
+       });
 
     }
     catch(e){

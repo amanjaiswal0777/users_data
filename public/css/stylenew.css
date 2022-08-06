@@ -5,11 +5,13 @@ body{
 }
 #thank{
     color: white;
-    width: 25vw;
+    width: 30vw;
     margin: auto;
     display: block;
     margin-top: 5%;
     font-size: 5rem;
+    text-align: center;
+
 }
 @media screen and (max-width:400px){
     body{
