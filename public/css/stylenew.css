@@ -1,0 +1,26 @@
+body{
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#thank{
+    color: white;
+    width: 25vw;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    font-size: 5rem;
+}
+@media screen and (max-width:400px){
+    body{
+        background-image: url("backmob.png");
+    }
+    #thank{
+        color: black;
+    width: 69vw;
+    margin: auto;
+    display: block;
+    margin-top: 81%;
+    font-size: 3rem;
+    }
+}

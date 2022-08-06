@@ -20,11 +20,30 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+   
     <div id="form-container">
          <form action="/home" method="POST">
-
+            <!-- welcome -->
+            <div class="welcome-container">
+                <div class="first-line">
+                    <span>
+                        WELCOME TO,
+                    </span>
+                </div>
+                <div class="second-line">
+                    <span>
+                        Data Base !!
+                    </span>
+                </div>
+            </div>
     <div class="input">
         <div class="input-name">
         <span>Name:</span>
@@ -79,23 +98,38 @@
     <div class="input">
         <div class="input-eight">
                 <span>Are you 18+</span>
-            <input type="checkbox" name="eight">
+            <input type="checkbox" name="eight" id="check">
             </div>
         </div> 
     <div class="input">
         <div class="input-fav">
-            <span>Whose is your favuroite actor or actoress: </span>
+            <span>Whose is your favuroite person apart from your parents </span>
             <input type="text" name="fav"  placeholder="type here!!">
         </div>
-    </div>    
+    </div> 
     
+    <div class="input">
+        <div class="input-last">
+            <span>
+                Who would be that person you want to spend your last day:
+            </span>
+            <input type="text" name="last">
+        </div>
+    </div>
 
-
+    <div class="input">
+        <div class="input-regret">
+            <span>
+                Your biggest regret:
+            </span>
+            <input type="text" name="regret">
+        </div>
+    </div>
 
 
     <div class="input">
         <div class="input-mood">
-            <span>are you enjoying it:</span>
+            <span>Are you enjoying it:</span>
         <select name="mood" id="mood-id">
             <option name="no">no</option>
             <option name="yes" selected>yes</option>
@@ -116,7 +150,7 @@
         <button type="submit">SUBMIT </button>
         </div>
     </div>
-    
+   
     </div>
    
     
